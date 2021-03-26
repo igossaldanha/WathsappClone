@@ -86,6 +86,7 @@ margin-left: 10px;
 /* Chatist */
 
 .chatlist{
+    
     flex: 1;
     background-color: #fff;
     overflow-y: auto;

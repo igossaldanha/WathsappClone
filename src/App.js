@@ -56,7 +56,9 @@ export default () => {
     }
 
     return (
+
         <div className="app-window">
+
             <div className="sidebar">
 
                 <NewChat
@@ -104,11 +106,12 @@ export default () => {
                 </div>
 
             </div>
+      
             <div className="contentarea">
                 {activeChat.chatId !== undefined &&
                     <ChatWindow
                         user={user}
-
+                        data={activeChat}
                     />
                 }
                 {activeChat.chatId === undefined &&
